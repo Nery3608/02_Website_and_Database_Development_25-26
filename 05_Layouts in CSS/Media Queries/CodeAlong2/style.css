@@ -1,31 +1,58 @@
 :root {
+    --bg:skyblue;
+    --fg: darkcyan;
+    --brand: black;
+    --nav-bg: #e2e8f0;
 
 }
 
 * {
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: var(--fg);
+    background-color: var(--bg);
 }
 
 .brand {
+    color: whitesmoke;
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: var(--nav-bg);
 }
 
 .nav a {
+    text-decoration: none;
 }
 
 .nav a:hover {
+    background: rgba(0, 0, 0, 0.02);
 
 }
 
 .content {
+    padding: 1.5rem;
 
 }
 
 @media (min-width: 640px) {
+    .nav{
+        position: sticky;
+        top: 0;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
 
 }
 
@@ -36,9 +63,16 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-
+        :root {
+            --bg:skyblue;
+            --brand: black;
+            --nav-bg: #e2e8f0;
+        }
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .nav a {
+        background: #ff8423;
+    }
 
 }
