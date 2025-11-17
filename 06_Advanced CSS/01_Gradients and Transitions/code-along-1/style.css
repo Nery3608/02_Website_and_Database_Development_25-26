@@ -4,6 +4,10 @@
     display: grid;
     place-items: center;
     padding: 4rem 1.5rem;
+    background-image:
+            radial-gradient(circle,skyblue, darkslategray, slategray),
+            linear-gradient(125deg, darkgray, gray, lightgray, black);
+
 
 
 }
@@ -31,8 +35,9 @@
     display: inline-block;
     padding: 0.75rem 1.25rem;
     border-radius: 999px;
-    background: white;
-    color: #5a32ea;
+    background: radial-gradient(circle, darkgrey, black);
+    color: crimson;
+    font-family: Arial, sans-serif, cursive;
     font-weight: 700;
     text-decoration: none;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
