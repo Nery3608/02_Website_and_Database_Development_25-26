@@ -9,6 +9,9 @@
             linear-gradient(125deg, darkgray, gray, lightgray, black);
 
 
+    background-image:
+            radial-gradient(60% 80% at 20% 20%, rgba(255, 255, 255, 0.3), transparent 60%),
+            linear-gradient(135deg, #6a5af9 0%, #b65ef1 45%, #ff7ac3 100%);
 
 }
 
