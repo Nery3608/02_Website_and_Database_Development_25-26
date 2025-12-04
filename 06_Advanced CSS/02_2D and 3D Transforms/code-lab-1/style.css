@@ -82,15 +82,19 @@ section h2 {
 /* Existing transform demos */
 
 #myDiv1 {
+    transform: translate(50px);
 }
 
 #myDiv2 {
+    transform: translate(50px, 20px);
 }
 
 #myDiv3 {
+    transform: rotate(25deg);
 }
 
 #myDiv4 {
+    transform: ;
 }
 
 #myDiv5 {
@@ -100,60 +104,78 @@ section h2 {
 }
 
 #myDiv7 {
+    transform: scaleX(0.7);
 }
 
 #myDiv8 {
+    transform: scaleX(90%);
 }
 
 #myDiv9 {
+    transform: scaleX(1.1);
 }
 
 #myDiv10 {
+    transform: scaleY(0.5);
 }
 
 #myDiv11 {
+    transform: scaleY(70%);
 }
 
 #myDiv12 {
+    transform: scaleY(1.1);
 }
 
 #myDiv13 {
+    transform: scale(0.7);
 }
 
 #myDiv14 {
+    transform: scale();
 }
 
 #myDiv15 {
 }
 
 #myDiv16 {
+    transform: skewX(15deg);
 }
 
 #myDiv17 {
+    transform: skewX(30deg);
 }
 
 #myDiv18 {
+    transform: skewX(-25deg);
 }
 
 #myDiv19 {
+    transform: skewY(30deg);
 }
 
 #myDiv20 {
+    transform: skewY(30deg);
 }
 
 #myDiv21 {
+    transform: skewY(-25deg);
 }
 
 #myDiv22 {
+    transform: skew(15deg);
 }
 
 #myDiv23 {
+    transform: skew(15deg, 15deg);
 }
 
 #myDiv24 {
+    transform: skew(-15deg);
 }
 
 #myDiv25 {
+    transform: skew(-15deg, 15deg);
 }
 
 #myDiv26 {
